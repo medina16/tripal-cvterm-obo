@@ -1,5 +1,5 @@
 format-version: 1.2
-ontology: kmsd_padi
+ontology: KMSD
 default-namespace: kmsd_padi
 remark: Padi (rice) descriptors generated from Spesifikasi_Model_Data_KMS_SDG v1-1
 
