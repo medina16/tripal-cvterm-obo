@@ -1,0 +1,664 @@
+format-version: 1.2
+ontology: kmsd_padi
+default-namespace: kmsd_padi
+remark: Padi (rice) descriptors generated from Spesifikasi_Model_Data_KMS_SDG v1-1
+
+[Term]
+id: KMSD:PADI-fase_pertumbuhan
+name: fase_pertumbuhan
+def: "Fase pertumbuhan tanaman padi. Skor: 1=Perkecambahan; 2=Bibit; 3=Anakan; 4=Pemanjangan batang; 5=Bunting; 6=Pembungaan; 7=Fase matang susu; 8=Fase pengisian; 9=Pematangan" []
+
+[Term]
+id: KMSD:PADI-ketegaran_bibit
+name: ketegaran_bibit
+def: "Ketegaran Bibit ( Vigor ) di pembibitan. Skor: 1=Sangat Tegar (tumbuh sangat cepat: tana; 3=Tegar (tanaman pada fase 4−5 daun mempu; 5=Normal (tanaman pada fase berdaun 4)); 7=Lemah (tanaman sedikit kerdil berdaun 3−; 9=Sangat Lemat (tanaman kerdil, daun-daun. Fase pengamatan: 2" []
+
+[Term]
+id: KMSD:PADI-kemampuan_beranak
+name: kemampuan_beranak
+def: "Kemampuan Beranak. Skor: 1=Sangat banyak (>25 anakan/tanaman); 3=Banyak (20-25 anakan/tanaman); 5=Sedang (10-19 anakan/tanaman); 7=Sedikit (5-9 anakan/tanaman); 9=Sangat Sedikit (<5 anakan/tanaman). Fase pengamatan: 5" []
+
+[Term]
+id: KMSD:PADI-ketegaran_batang
+name: ketegaran_batang
+def: "Ketegaran Batang. Skor: 1=Kuat (Tidak lengkung); 3=Agak Kuat (Sebagian besar agak lengkung; 5=Sedang (sebagian lengkung); 7=Lemah (sebagian besar agak rebah); 9=Sangat lemah (seluruh tanaman datar). Fase pengamatan: 8−9" []
+
+[Term]
+id: KMSD:PADI-kerebahan
+name: kerebahan
+def: "Kerebahan. Fase pengamatan: 6−9, d" []
+
+[Term]
+id: KMSD:PADI-tinggi_tanaman
+name: tinggi_tanaman
+def: "Tinggi Tanaman. Skor: 1=Pendek (sawah: <110 cm, gogo: <90 cm); 5=Sedang (sawah: 110−130 cm, gogo: 90−125 ; 9=Tinggi Tanaman (sawah: >130 cm, gogo: >. Fase pengamatan: 7−9" []
+
+[Term]
+id: KMSD:PADI-menguningnya_daun
+name: menguningnya_daun
+def: "Menguningnya Daun. Skor: 1=Lambat dan perlahan (daun bewarna hijau ; 5=Sedang (daun bagian atas menguning); 9=Segera dan cepat (seluruh daun kuning a. Fase pengamatan: 9" []
+
+[Term]
+id: KMSD:PADI-keluarnya_malai
+name: keluarnya_malai
+def: "Keluarnya malai. Skor: 1=Seluruh malai dan leher keluar; 3=Seluruh malai keluar, leher sedang; 5=Malai hanya muncul sebatas leher malai; 7=Sebagian malai keluar; 9=Malai tidak keluar. Fase pengamatan: 7−9" []
+
+[Term]
+id: KMSD:PADI-kerontokan
+name: kerontokan
+def: "Kerontokan. Skor: 1=Sulit (<1%); 3=Agak Sulit (1-5%); 5=Sedang (6-25%); 7=Agak Mudah (26-50%); 9=Mudah (51-100%). Fase pengamatan: 9" []
+
+[Term]
+id: KMSD:PADI-fertilitas_gabah
+name: fertilitas_gabah
+def: "Fertilitas Gabah ( Ferga ). Skor: 1=Sangat fertil (>90%); 3=Fertil (75-89%); 5=Sebagian Steril (50-74%); 7=Steril (<50%); 9=Sangat Steril (0%). Fase pengamatan: 9" []
+
+[Term]
+id: KMSD:PADI-keberterimaan_fenotipik
+name: keberterimaan_fenotipik
+def: "Keberterimaan Fenotipik. Skor: 1=Sangat Baik; 3=Baik; 5=Cukup; 7=Jelek; 9=Tidak dapat diterima. Fase pengamatan: 9" []
+
+[Term]
+id: KMSD:PADI-umur_tanaman
+name: umur_tanaman
+def: "Umur tanaman. Satuan: hari. Fase pengamatan: 9" []
+
+[Term]
+id: KMSD:PADI-hasil
+name: hasil
+def: "Hasil. Satuan: kg. Fase pengamatan: 9" []
+
+[Term]
+id: KMSD:PADI-golongan
+name: golongan
+def: "Golongan. Skor: 1=Indica (cere); 2=Japonica; 3=Javanica ( bulu); 4=Intermediate (hibrida)" []
+
+[Term]
+id: KMSD:PADI-tinggi_bibit
+name: tinggi_bibit
+def: "Tinggi bibit. Satuan: cm. Fase pengamatan: 2−3" []
+
+[Term]
+id: KMSD:PADI-panjang_daun
+name: panjang_daun
+def: "Panjang daun. Skor: 1=Sangat Pendek (<21 cm); 2=Pendek (21-40 cm); 3=Sedang (41-60 cm); 4=Panjang (61-80 cm); 5=Sangat Panjang (>80cm). Fase pengamatan: 6" []
+
+[Term]
+id: KMSD:PADI-lebar_daun
+name: lebar_daun
+def: "Lebar daun. Satuan: cm. Fase pengamatan: 6" []
+
+[Term]
+id: KMSD:PADI-permukaan_daun
+name: permukaan_daun
+def: "Permukaan daun. Skor: 1=Tidak berambut; 2=Sedang; 3=Berambut. Fase pengamatan: 5−6" []
+
+[Term]
+id: KMSD:PADI-sudut_daun
+name: sudut_daun
+def: "Sudut daun. Skor: 1=Tegak (<45°); 2=Sedang (45-90°); 3=Mendatar (Mendatar 90°); 4=Terkulai (Terkulai >90°). Fase pengamatan: 4−5" []
+
+[Term]
+id: KMSD:PADI-sudut_daun_bendera
+name: sudut_daun_bendera
+def: "Sudut daun bendera. Skor: 1=Tegak; 3=Sedang (kurang lebih 45°); 5=Mendatar; 7=Terkulai. Fase pengamatan: 4−5" []
+
+[Term]
+id: KMSD:PADI-warna_leher_daun
+name: warna_leher_daun
+def: "Warna leher daun. Skor: 1=Hijau Mudah; 2=Ungu. Fase pengamatan: 4−6" []
+
+[Term]
+id: KMSD:PADI-warna_telinga_daun
+name: warna_telinga_daun
+def: "Warna telinga daun. Skor: 1=Putih ( Tidak bewarna ); 2=Bergaris ungu; 3=Ungu. Fase pengamatan: 4−5" []
+
+[Term]
+id: KMSD:PADI-warna_buku_daun
+name: warna_buku_daun
+def: "Warna buku daun. Skor: 1=Hijau; 2=Kuning Emas; 3=Bergaris ungu; 4=Ungu. Fase pengamatan: 7−9" []
+
+[Term]
+id: KMSD:PADI-warna_helaian_daun
+name: warna_helaian_daun
+def: "Warna helaian daun. Skor: 1=Hijau muda; 2=hiaju; 3=hijau tua; 4=ungu pada bagian ujung; 5=ungu pada bagian pinggir; 6=campuran ungu dengan hijau; 7=ungu. Fase pengamatan: 4−6" []
+
+[Term]
+id: KMSD:PADI-warna_pelepah_daun
+name: warna_pelepah_daun
+def: "Warna pelepah daun. Skor: 1=Hijau; 2=Bergaris ungu; 3=Ungu muda; 4=Ungu" []
+
+[Term]
+id: KMSD:PADI-panjang_lidah_daun
+name: panjang_lidah_daun
+def: "Panjang lidah daun. Fase pengamatan: 4−5" []
+
+[Term]
+id: KMSD:PADI-warna_lidah_daun
+name: warna_lidah_daun
+def: "Warna lidah daun. Skor: 1=Putih; 2=Bergaris ungu; 3=Ungu. Fase pengamatan: 4−5" []
+
+[Term]
+id: KMSD:PADI-bentuk_lidah
+name: bentuk_lidah
+def: "Bentuk lidah. Skor: 1=Acute-acuminate; 2=2-cleft; 3=Truncate. Fase pengamatan: 3−4" []
+
+[Term]
+id: KMSD:PADI-jumlah_anakan
+name: jumlah_anakan
+def: "Jumlah anakan. Fase pengamatan: 6−9" []
+
+[Term]
+id: KMSD:PADI-sudut_batang
+name: sudut_batang
+def: "Sudut batang. Skor: 1=Tegak (<30°); 3=Sedang (kurang lebih 45°); 5=Terbuka (kurang lebih 60°); 7=terserak (>60°); 9=Batang/bagian terbawah mengenai permukaa. Fase pengamatan: 7−9" []
+
+[Term]
+id: KMSD:PADI-diameter_ruas_batang_bawah
+name: diameter_ruas_batang_bawah
+def: "Diameter ruas batang bawah. Satuan: mm. Fase pengamatan: 7−9" []
+
+[Term]
+id: KMSD:PADI-warna_ruas_batang
+name: warna_ruas_batang
+def: "Warna ruas batang. Skor: 1=Hijau; 2=Kuning emas; 3=Bergaris ungu; 4=Ungu. Fase pengamatan: 7−9" []
+
+[Term]
+id: KMSD:PADI-panjang_malai
+name: panjang_malai
+def: "Panjang malai. Satuan: cm. Fase pengamatan: 8" []
+
+[Term]
+id: KMSD:PADI-tipe_malai
+name: tipe_malai
+def: "Tipe malai. Skor: 1=Kompak; 3=Antara kompak dan sedang; 5=Sedang; 7=Antara sedang dan terbuka; 9=Terbuka. Fase pengamatan: 8" []
+
+[Term]
+id: KMSD:PADI-cabang_malai_sekunder
+name: cabang_malai_sekunder
+def: "Cabang malai sekunder. Skor: 0=Tidak bercabang; 1=Sedikit; 2=Banyak ( padat ); 3=Bergerombol. Fase pengamatan: 8" []
+
+[Term]
+id: KMSD:PADI-poros_malai
+name: poros_malai
+def: "Poros malai. Skor: 1=Lurus; 2=Terkulai. Fase pengamatan: 7−9" []
+
+[Term]
+id: KMSD:PADI-warna_lemma_palea
+name: warna_lemma_palea
+def: "Warna lemma dan palea. Skor: 0=Kuning Jerami; 1=Kuning emas dan garis-garis bewarna emas; 2=Bercak cokelat pada latar bewarna kuning; 3=Garis-garis cokelat pada latar berwarna ; 4=Cokelat (oranye kecokelatcokelatan); 5=Kemerahan sampai ungu muda; 6=Berbercak ungu pada latar berwarna kunin; 7=Garis-garis ungu pada latar berwarna kun; 8=Ungu; 9=Hitam; 10=Putih. Fase pengamatan: 9" []
+
+[Term]
+id: KMSD:PADI-keberadaan_rambut_lemma_palea
+name: keberadaan_rambut_lemma_palea
+def: "Keberadaa rambut pada lemma dan palea. Skor: 1=Licin; 2=Rambut pada lekukan lemma; 3=Rambut pada bagian atas gabah; 4=rambut-rambut pendek; 5=rambut-rambut panjang (rimbun oleh rambu. Fase pengamatan: 7−9" []
+
+[Term]
+id: KMSD:PADI-warna_lemma_steril
+name: warna_lemma_steril
+def: "Warna lemma steril. Skor: 1=Kuning jerami; 2=Kuning emas dan garis-garis bewarna emas; 3=Merah; 4=Ungu. Fase pengamatan: 9" []
+
+[Term]
+id: KMSD:PADI-panjang_lemma_steril
+name: panjang_lemma_steril
+def: "Panjang lemma steril. Skor: 0=Tidak ada; 1=Pendek (<= 1,5 mm); 3=Sedang (1,6-2,5 mm); 5=Panjang (>2.5 mm, tetapi lebih pendek d; 7=Sangat panjang (>=lemma); 9=Tidak simetris. Fase pengamatan: 9" []
+
+[Term]
+id: KMSD:PADI-warna_ujung_gabah
+name: warna_ujung_gabah
+def: "Warna Ujung gabah. Skor: 0=Tidak bewarna; 1=Kuning jerami; 2=Merah; 3=Cokelat (oranye kecokelat-cokelatan); 4=Merah; 5=Apex bewarna merah; 6=ungu; 7=Apex bewarna ungu. Fase pengamatan: 6" []
+
+[Term]
+id: KMSD:PADI-bulu_ujung_gabah
+name: bulu_ujung_gabah
+def: "Bulu ujung gabah. Skor: 0=Tidak berbulu; 1=Pendek dan hanya sebagain berbulu; 5=Pendek dan semua berbulu; 7=Panjnag dan hanya sebagian berbulu; 9=Panjang dan semua berbulu. Fase pengamatan: 7−9" []
+
+[Term]
+id: KMSD:PADI-warna_bulu_ujung_gabah
+name: warna_bulu_ujung_gabah
+def: "Warna bulu ujung gabah. Skor: 0=Putih; 1=Kuning jerami; 2=Kuning emas dan garis-garis bewarna emas; 3=Cokelat (oranye kecokelat-cokelatan); 4=Merah; 5=Apex bewarna merah; 6=Ungu; 7=Apex bewarna ungu. Fase pengamatan: 6" []
+
+[Term]
+id: KMSD:PADI-panjang_bulu
+name: panjang_bulu
+def: "Panjang bulu. Satuan: mm" []
+
+[Term]
+id: KMSD:PADI-warna_kepala_putik
+name: warna_kepala_putik
+def: "Warna kepala putik. Skor: 1=Putih; 2=Hijau mudah; 3=Kuning; 4=Ungu muda; 5=Ungu. Fase pengamatan: 6" []
+
+[Term]
+id: KMSD:PADI-panjang_biji
+name: panjang_biji
+def: "Panjang biji. Skor: 1=Sangat panjang (>7,50 mm); 3=Panjang (6,61 - 7,50 mm); 5=Sedang (5,51-6,60 mm); 9=Pendek (<5,51 mm). Fase pengamatan: 9" []
+
+[Term]
+id: KMSD:PADI-lebar_biji
+name: lebar_biji
+def: "Lebar biji. Satuan: mm. Fase pengamatan: 9" []
+
+[Term]
+id: KMSD:PADI-ketebalan_biji
+name: ketebalan_biji
+def: "Ketebalan biji. Satuan: mm" []
+
+[Term]
+id: KMSD:PADI-tipe_endosperm
+name: tipe_endosperm
+def: "Tipe endosperm. Skor: 1=Non-glotinous; 2=Glutinous ( waxy ); 3=Sedang ( Intermediate ). Fase pengamatan: 9" []
+
+[Term]
+id: KMSD:PADI-butir_mengapur
+name: butir_mengapur
+def: "Butir Mengapur. Skor: 0=Tidak ada; 1=Kecil (<10% dari luas butiran); 5=Sedang (Intermediate) (11-20% dari luas ; 9=Besar (>20 % dari luas butiran). Fase pengamatan: 9" []
+
+[Term]
+id: KMSD:PADI-panjang_beras_pecah_kulit
+name: panjang_beras_pecah_kulit
+def: "Panjang beras pecah kulit. Skor: 1=Sangat panjang (>7,5 mm); 3=Panjang (6,61 - 7,5 mm); 5=Sedang (5,51 -6,6); 7=Pendek (<5,5mm). Fase pengamatan: 9" []
+
+[Term]
+id: KMSD:PADI-bentuk_beras_pecah_kulit
+name: bentuk_beras_pecah_kulit
+def: "Bentuk beras pecah kulit. Skor: 1=Ramping (>3,0); 3=Sedang (2,1-3,0); 5=Lonjong (1,1-2,0); 9=Bulat (<1,1). Fase pengamatan: 9" []
+
+[Term]
+id: KMSD:PADI-bobot_100_butir
+name: bobot_100_butir
+def: "Bobot 100 butir. Satuan: gram. Fase pengamatan: 9" []
+
+[Term]
+id: KMSD:PADI-warna_kulit_ari_beras
+name: warna_kulit_ari_beras
+def: "Warna kulit ari beras. Skor: 1=Putih; 2=Cokelat mudah; 3=Bercak-bercak kecil/cokelat; 4=Cokelat; 5=Merah; 6=Ungu Bervariasi; 7=Ungu. Fase pengamatan: 9" []
+
+[Term]
+id: KMSD:PADI-aroma
+name: aroma
+def: "Aroma. Skor: 0=Tidak wangi; 1=Sedikit wangi; 2=Wangi. Fase pengamatan: 6−9" []
+
+[Term]
+id: KMSD:PADI-kadar_amilosa
+name: kadar_amilosa
+def: "Kadar amilosa. Skor: 0=<3% kelas: Waxi (glutinous); 1=3,1%-10,0% kelas: Sangat Rendah; 3=10,1%-15,0% kelas: Rendah; 5=15,1%-20,0% kelas: Sedang; 7=20,1%-25,0% kelas: Tinggi; 9=25,1%-30.0% kelas: Sangat tinggi" []
+
+[Term]
+id: KMSD:PADI-uji_alkali
+name: uji_alkali
+def: "Uji Alkali. Skor: 1=Tidak terpengaruh tetapi memutih; Uji al; 2=Mengembang; uji lkali: Rendah Suhu gela; 3=menggembung dengan granula pati tidak se; 4=Menggembung dengan granula pati sempurna; 5=Membelah atau sedang terpisah dengan gra; 6=Tersebar, melebur dengan granula pati; U; 7=Tersebar sempurna dan bening; Uji alkali. Fase pengamatan: 9" []
+
+[Term]
+id: KMSD:PADI-kebeningan
+name: kebeningan
+def: "Kebeningan. Skor: 1=Bening/Bersih; 5=Sedang; 9=Buram/Kusam" []
+
+[Term]
+id: KMSD:PADI-protein_beras_pecah_kulit
+name: protein_beras_pecah_kulit
+def: "Protein Beras pecah kulit. Fase pengamatan: 9" []
+
+[Term]
+id: KMSD:PADI-kandungan_lysine
+name: kandungan_lysine
+def: "Kandungan lysine" []
+
+[Term]
+id: KMSD:PADI-perbandingan_elongasi
+name: perbandingan_elongasi
+def: "Perbandingan elongasi ( Perelong )" []
+
+[Term]
+id: KMSD:PADI-faktor_panca_indra
+name: faktor_panca_indra
+def: "Faktor yang berhubungan dengan panca indra selain aroma. Skor: a=Rasa enak; b=Tidak ada rasa; c=Kepulenan; d=Kepaduan; e=Putihnya; f=halus; 1=Tahan ( T); 3=Agak tahan (AT); 5=Sedang ( S); 7=Rentan (R); 9=Sangat Rentan ( SR)" []
+
+[Term]
+id: KMSD:PADI-kerusakan_tanaman
+name: kerusakan_tanaman
+def: "Kerusakan tanaman" []
+
+[Term]
+id: KMSD:PADI-toleransi_penyakit_blas_a
+name: toleransi_penyakit_blas_a
+def: "Toleransi terhadap penyakit blas. Skor: 0=Tidak ada serangan; 1=Terdapat bintik cokelat kecil atau binti; 2=Bintik cokelat bulat sampai agak lonjong; 3=Tipe serangan sama dengan skala 2 , teta; 4=Tipe serangan bias rentan, diamter lebih; 5=Serangan bias menginfeksi 2-10 % luas da; 6=Serangan bias menginfeksi 11-25% luas da; 7=Serangan bias menginfeksi 26-50% luas da; 8=Serangan bias menginfeksi 51-75 % dari l; 9=>75% luas daun terserang. Fase pengamatan: 2−3" []
+
+[Term]
+id: KMSD:PADI-toleransi_penyakit_blas_b
+name: toleransi_penyakit_blas_b
+def: "Toleransi terhadap penyakit blas. Skor: 0=Tidak ada serangan; 1=Terdapat bintik cokelat kecil atau binti; 2=Bintik cokelat bulat sampai agak lonjong; 3=Tipe serangan sama dengan skala 2 , teta; 4=Tipe serangan bias rentan, diamter lebih; 5=Serangan bias menginfeksi 2-10 % luas da; 6=Serangan bias menginfeksi 11-25% luas da; 7=Serangan bias menginfeksi 26-50% luas da; 8=Serangan bias menginfeksi 51-75 % dari l; 9=>75% luas daun terserang. Fase pengamatan: 2−3" []
+
+[Term]
+id: KMSD:PADI-blas_leher_malai_a
+name: blas_leher_malai_a
+def: "Blas malai ( blas leher malai ) (skala: berdasarkan gejala). Skor: 0=Tidak ada luka atau luka hanya sedikit p; 1=Luka terdapat pada beberapa leher malai ; 3=Luka pada sedikit cabang utama atau pada; 5=Luka terdapat pada sebagian leher atau b; 7=Luka terdapat pada seluruh leher malai a; 9=Luka mengenai seluruh leher malai atau i" []
+
+[Term]
+id: KMSD:PADI-blas_leher_malai_b
+name: blas_leher_malai_b
+def: "Blas malai ( blas leher malai ) (skala: timbulnya serangan berat pada malai). Skor: 0=Tidak ada luka atau luka hanya sedikit p; 1=Luka terdapat pada beberapa leher malai ; 3=Luka pada sedikit cabang utama atau pada; 5=Luka terdapat pada sebagian leher atau b; 7=Luka terdapat pada seluruh leher malai a; 9=Luka mengenai seluruh leher malai atau i" []
+
+[Term]
+id: KMSD:PADI-bercak_cokelat
+name: bercak_cokelat
+def: "Bercak Cokelat. Skor: 0=Tidak ada serangan; 1=<1%; 2=1-3%; 3=4−5%; 4=6−10%; 5=11−15%; 6=16−25%; 7=26−50%; 8=51−75%; 9=76−100%. Fase pengamatan: 2 dan 5−9" []
+
+[Term]
+id: KMSD:PADI-bercak_daun_cokelat_sempit
+name: bercak_daun_cokelat_sempit
+def: "Bercak daun cokelat sempit (skala: luas daun terserang). Skor: 0=Tidak ada serangan; 1=<1%; 3=1-5%; 5=6-25%; 7=26-50%; 9=51-100%" []
+
+[Term]
+id: KMSD:PADI-bakteri_daun_bergaris
+name: bakteri_daun_bergaris
+def: "Bakteri daun bergaris (skala: luas daun terserang). Skor: 0=Tidak ada serangan; 1=<1%; 3=1-5%; 5=6-25%; 7=26-50%; 9=51-100%. Fase pengamatan: 3−6" []
+
+[Term]
+id: KMSD:PADI-penyakit_lempuh_daun
+name: penyakit_lempuh_daun
+def: "Penyakit lempuh daun (skala: luas daun terserang). Skor: 0=Tidak ada serangan; 1=<1% (luka di ujung daun); 3=1-5% (luka di ujung daun); 5=6-25% (luka di ujung daun dan pinggir da; 7=26-50% (luka di ujung daun dan pinggir d; 9=51-100% (luka di ujung dan pinggir daun). Fase pengamatan: 5−8" []
+
+[Term]
+id: KMSD:PADI-penyakit_hawar_daun_bakteri_a
+name: penyakit_hawar_daun_bakteri_a
+def: "Hawar daun bakteri (skala: uji di rumah kaca, area daun terserang). Skor: 1=0−3%; 2=4−6%; 3=7−12%; 4=13−25%; 5=26−50%; 6=51−75%; 7=76−87%; 8=88−94%; 9=95−100%" []
+
+[Term]
+id: KMSD:PADI-penyakit_hawar_daun_bakteri_b
+name: penyakit_hawar_daun_bakteri_b
+def: "Hawar daun bakteri (skala: uji lapang area daun terserang). Skor: 1=0−3%; 2=4−6%; 3=7−12%; 4=13−25%; 5=26−50%; 6=51−75%; 7=76−87%; 8=88−94%; 9=95−100%" []
+
+[Term]
+id: KMSD:PADI-virus_organisme
+name: virus_organisme
+def: "Penyakit padi yang disebabkan oleh virus dan organisme seperti mycoplasma dan phytoplas. Skor: 0=Tidak ada serangan; 1=1-10%; 3=11-30%; 5=31-50%; 7=51-70%; 9=71-100%" []
+
+[Term]
+id: KMSD:PADI-penyakit_tungro
+name: penyakit_tungro
+def: "Penyakit Tungro. Skor: 1=Tidak ada gejala serangan; 3=Tinggi tanaman lebih pendek 1−10%, perub; 5=Tinggi tanaman lebih pendek 11−30%, peru; 7=Tinggi tanaman lebih pendek 31−50%, peru; 9=Tinggi tanaman lebih pendek hingga lebih. Fase pengamatan: 2" []
+
+[Term]
+id: KMSD:PADI-penyakit_virus_kerdil_rumput_a
+name: penyakit_virus_kerdil_rumput_a
+def: "Penyakit virus kerdil rumput 1. Skor: 1=Tidak terdapat gejala; 3=Daun-daun berwarna hijau pucat dan sedik; 5=Daun berwarna hijau pucat dan sedikit me; 7=Daun-daun berwarna hijau pucat sampai ku; 9=Daun-daun kecil berwarna hijau pucat sam. Fase pengamatan: 2−3" []
+
+[Term]
+id: KMSD:PADI-penyakit_virus_kerdil_rumput_b
+name: penyakit_virus_kerdil_rumput_b
+def: "Penyakit virus kerdil rumput 2. Skor: 1=Tidak terdapat gejala; 3=Daun-daun berwarna kuning pucat dan sedi; 5=Daun berwarna kuning pucat dan sedikit m; 7=Daun-daun berwarna kuning pucat sampai k; 9=Daun-daun kecil berwarna kuning pucat sa. Fase pengamatan: 2−3" []
+
+[Term]
+id: KMSD:PADI-penyakit_virus_kerdil_hampa
+name: penyakit_virus_kerdil_hampa
+def: "Penyakit virus kerdil hampa. Skor: 1=Tidak ada gejala; 3=Terjadi reduksi tinggi tanaman 0-10%, ti; 5=Terjadi reduksi tinggi tanaman 0-10%, 1-; 7=Terjadi reduksi tinggi tanaman 11−30%, 3; 9=Terjadi reduksi tinggi tanaman hingga >3. Fase pengamatan: 2−3" []
+
+[Term]
+id: KMSD:PADI-penyakit_kerdil_kuning
+name: penyakit_kerdil_kuning
+def: "Penyakit kerdil kuning. Fase pengamatan: 4−6" []
+
+[Term]
+id: KMSD:PADI-penyakit_bilur_kuning_padi
+name: penyakit_bilur_kuning_padi
+def: "Penyakit bilur kuning padi. Skor: 1=Tidak ada gejala; 3=Daun hijau tetapi terdapat titik-titik a; 5=Daun berwarna hijau atau hijau pucat den; 7=Daun berwarna kuning pucat atau kuning, ; 9=Daun berubah menjadi kuning atau oranye,. Fase pengamatan: 4−6" []
+
+[Term]
+id: KMSD:PADI-penyakit_rice_hoja_blanca
+name: penyakit_rice_hoja_blanca
+def: "Penyakit rice hoja blanca. Skor: 0=Tidak ada gejala; 1=<1%; 3=1-10%; 5=11-30%; 9=61-100%. Fase pengamatan: 2−4" []
+
+[Term]
+id: KMSD:PADI-penyakit_hawar_pelepah_daun
+name: penyakit_hawar_pelepah_daun
+def: "Penyakit hawar pelepah daun. Skor: 0=Tidak terjadi infeksi; 1=Luka terbatas pada 20% dari bagian bawah; 3=20-30%; 5=31-45%; 7=46-65%; 9=>65%. Fase pengamatan: 7−8" []
+
+[Term]
+id: KMSD:PADI-penyakit_busuk_pelepah
+name: penyakit_busuk_pelepah
+def: "Penyakit busuk pelepah. Skor: 0=Tidak terjadi apa-apa; 1=<1%; 3=1-5%; 5=6-25%; 7=26-50%; 9=51-100%. Fase pengamatan: 7−9" []
+
+[Term]
+id: KMSD:PADI-penyakit_perubahan_warna_biji
+name: penyakit_perubahan_warna_biji
+def: "Penyakit perubahan warna biji. Skor: 0=Tidak terjadi apa-apa; 1=<1%; 3=1-5%; 5=6-25%; 7=26-50%; 9=51-100%. Fase pengamatan: 8−9" []
+
+[Term]
+id: KMSD:PADI-false_smut
+name: false_smut
+def: "Penyakit jelaga palsu. Skor: 0=Tidak terjadi apa-apa; 1=<1%; 3=1-5%; 5=6-25%; 7=26-50%; 9=51-100%. Fase pengamatan: 9" []
+
+[Term]
+id: KMSD:PADI-kernel_smut
+name: kernel_smut
+def: "Penyakit jelaga malai. Fase pengamatan: 9" []
+
+[Term]
+id: KMSD:PADI-penyakit_kembang_api
+name: penyakit_kembang_api
+def: "Penyakit kembang api. Skor: 0=Tidak terjadi a[a-apa; 1=<1%; 5=1-25%; 9=26-100%" []
+
+[Term]
+id: KMSD:PADI-penyakit_bakanae
+name: penyakit_bakanae
+def: "Penyakit bakanae. Fase pengamatan: 3−6" []
+
+[Term]
+id: KMSD:PADI-penyakit_busuk_batang
+name: penyakit_busuk_batang
+def: "Penyakit busuk batang. Skor: 0=Tidak terjadi apa-apa; 1=<1%; 3=1-5%; 5=6-25%; 7=26-50%; 9=51-100%. Fase pengamatan: 7−9" []
+
+[Term]
+id: KMSD:PADI-penyakit_ufra
+name: penyakit_ufra
+def: "Penyakti ufra. Skor: 0=; 1=1-20% (gejala mungkin tidak tampak jela; 3=21-40% (gejala tampak jeas); 5=41-60% (gejala tampak jelas); 7=61-80% (gejala tampak jelas); 9=81-100% (gejala tampak jelas). Fase pengamatan: 6−7" []
+
+[Term]
+id: KMSD:PADI-hama_tikus
+name: hama_tikus
+def: "Hama tikus. Skor: 0=Tidak terjadi kerusakan; 1=<5%; 5=6-25%; 9=26-100%" []
+
+[Term]
+id: KMSD:PADI-hama_burung
+name: hama_burung
+def: "Hama burung. Skor: 0=Tidak terjadi kerusakan; 1=<5%; 5=6-25%; 9=26-100%" []
+
+[Term]
+id: KMSD:PADI-wereng_batang_cokelat_a
+name: wereng_batang_cokelat_a
+def: "Wereng batang cokelat. Skor: 0=Tidak terjadi kerusakan; 1=Kerusakan sangat ringan; 3=Daun pertama dan kedua dari sebagian bes; 5=Daun menguning hebat dan kerdil atau sek; 7=Lebih dari 50% tanaman layu atau mati, d; 9=Semua tanaman mati. Fase pengamatan: 2" []
+
+[Term]
+id: KMSD:PADI-wereng_batang_cokelat_b
+name: wereng_batang_cokelat_b
+def: "Wereng batang cokelat (untuk uji lapang). Skor: 0=Tidak terjadi kerusakan; 1=Kerusakan sangat ringan; 3=Daun pertama dan kedua dari sebagian bes; 5=Daun menguning hebat dan kerdil atau sek; 7=Lebih dari 50% tanaman layu atau mati, d; 9=Semua tanaman mati. Fase pengamatan: 2" []
+
+[Term]
+id: KMSD:PADI-wereng_hijau
+name: wereng_hijau
+def: "Wereng hijau. Skor: 3=Daun pertama dan kedua menguning; 5=Semua daun kuning atau kerdil atau kedua; 7=Lebih dari 50% tanaman mat, tanaman yang; 9=Semua tanaman mati. Fase pengamatan: 2" []
+
+[Term]
+id: KMSD:PADI-wereng_punggung_putih
+name: wereng_punggung_putih
+def: "Wereng punggung putih. Skor: 0=Tidak ada kerusakan; 1=Kerusakan sangat sedikit; 3=Daun pertama dan kedua ujungnya bewarna ; 5=Lebih dari setengah daun-daun ujungnya b; 7=Lebih dari setengah tanaman mati, sisa t; 9=Seluruh tanaman mati. Fase pengamatan: 2" []
+
+[Term]
+id: KMSD:PADI-rice_delphacid
+name: rice_delphacid
+def: "Rice Delphacid. Skor: 0=Tidak ada kerusakan; 1=Sangat sedikit kerusakan/daun berubah wa; 3=Daun-daun pertama dan kedua menguning; 5=Daun nyata kekuning-kuningan dan beberap; 7=Daun sangat kuning dan tanaman sangat ke; 9=Seluruh tanaman mati. Fase pengamatan: 2" []
+
+[Term]
+id: KMSD:PADI-penggerek_batang
+name: penggerek_batang
+def: "Penggerak batang. Skor: 0=Tidak ada kerusakan; 1=1-10%; 3=11-20%; 5=21-30%; 7=31-60%; 9=>60%; 0=Tidak ada kerusakan; 1=1-10%; 3=11-20%; 5=21-35%; 7=36-50%; 9=51-100% …" []
+
+[Term]
+id: KMSD:PADI-pelipat_daun_a
+name: pelipat_daun_a
+def: "Pelipat daun" []
+
+[Term]
+id: KMSD:PADI-pelipat_daun_b
+name: pelipat_daun_b
+def: "Pelipat daun (Pengujian di rumah kaca)" []
+
+[Term]
+id: KMSD:PADI-pelipat_daun_c
+name: pelipat_daun_c
+def: "Pelipat daun (Kelas kerusakan terkoreksi (D))" []
+
+[Term]
+id: KMSD:PADI-ganjur_a
+name: ganjur_a
+def: "Ganjur (persentase anakan terinfeksi pada uji lapang)" []
+
+[Term]
+id: KMSD:PADI-ganjur_b
+name: ganjur_b
+def: "Ganjur (persentase tanaman dengan tunas ”puru” pada pengujian di rumah kaca)" []
+
+[Term]
+id: KMSD:PADI-caseworm
+name: caseworm
+def: "Caseworm" []
+
+[Term]
+id: KMSD:PADI-hama_putih_palsu
+name: hama_putih_palsu
+def: "Hama putih palsu" []
+
+[Term]
+id: KMSD:PADI-walang_sangit
+name: walang_sangit
+def: "Walang sangit" []
+
+[Term]
+id: KMSD:PADI-kutu_daun
+name: kutu_daun
+def: "Kutu daun" []
+
+[Term]
+id: KMSD:PADI-alkalinitas
+name: alkalinitas
+def: "Alakalinitas" []
+
+[Term]
+id: KMSD:PADI-kegaraman
+name: kegaraman
+def: "Kegaraman" []
+
+[Term]
+id: KMSD:PADI-keracunan_besi
+name: keracunan_besi
+def: "Keracunan besi" []
+
+[Term]
+id: KMSD:PADI-kahat_fosfor
+name: kahat_fosfor
+def: "Kahat fosfor" []
+
+[Term]
+id: KMSD:PADI-kahat_seng
+name: kahat_seng
+def: "Kahat Seng" []
+
+[Term]
+id: KMSD:PADI-toleransi_suhu_dingin_a
+name: toleransi_suhu_dingin_a
+def: "Toleransi terhadap suhu dingin (untuk bibit)" []
+
+[Term]
+id: KMSD:PADI-toleransi_suhu_dingin_b
+name: toleransi_suhu_dingin_b
+def: "Toleransi terhadap suhu dingin (dari fase anakan dan pematangan)" []
+
+[Term]
+id: KMSD:PADI-toleransi_suhu_dingin_c
+name: toleransi_suhu_dingin_c
+def: "Toleransi terhadap suhu dingin (kebernasan gabah)" []
+
+[Term]
+id: KMSD:PADI-toleransi_suhu_panas
+name: toleransi_suhu_panas
+def: "Toleransi terhadap suhu panas" []
+
+[Term]
+id: KMSD:PADI-kepakaan_kekeringan_a
+name: kepakaan_kekeringan_a
+def: "Kepakaan terhadap kekeringan (daun menggulung pada fase vegetatif)" []
+
+[Term]
+id: KMSD:PADI-kepakaan_kekeringan_b
+name: kepakaan_kekeringan_b
+def: "Kepakaan terhadap kekeringan (daun mengering pada fase vegetatif)" []
+
+[Term]
+id: KMSD:PADI-kepakaan_kekeringan_c
+name: kepakaan_kekeringan_c
+def: "Kepakaan terhadap kekeringan (kebernasan gabah)" []
+
+[Term]
+id: KMSD:PADI-kesembuhan
+name: kesembuhan
+def: "Kesembuhan" []
+
+[Term]
+id: KMSD:PADI-pemanjangan
+name: pemanjangan
+def: "Pemanjangan" []
+
+[Term]
+id: KMSD:PADI-toleransi_penggenangan
+name: toleransi_penggenangan
+def: "Toleransi penggenangan" []
+
+[Term]
+id: KMSD:PADI-kemampuan_perbedaan_baku
+name: kemampuan_perbedaan_baku
+def: "Kemampuan perbedaan baku" []
+
+[Term]
+id: KMSD:PADI-kelompok_mandul_jantan
+name: kelompok_mandul_jantan
+def: "Kelompok mandul jantan" []
+
+[Term]
+id: KMSD:PADI-derajat_mandul_jantan_kemandulan_tepung_sari
+name: derajat_mandul_jantan_kemandulan_tepung_sari
+def: "Derajat mandul jantan dari galur mandul jantan. Kemandulan tepung sari" []
+
+[Term]
+id: KMSD:PADI-derajat_mandul_jantan_kemandulan_anak_bunga
+name: derajat_mandul_jantan_kemandulan_anak_bunga
+def: "Derajat mandul jantan dari galur mandul jantan. Kemandulan anak bunga-bunga ( gabah )" []
+
+[Term]
+id: KMSD:PADI-pola_aborsi_galur_mandul_jantan
+name: pola_aborsi_galur_mandul_jantan
+def: "Pola aborsi dan galur mandul jantan" []
+
+[Term]
+id: KMSD:PADI-tingkat_silah_pindah_galur_mandul_jantan
+name: tingkat_silah_pindah_galur_mandul_jantan
+def: "Tingkat silah-pindah (outcrossing) pada galur mandul jantan" []
+
+[Term]
+id: KMSD:PADI-pemunculan_malai_pada_galur_mandul_jantan
+name: pemunculan_malai_pada_galur_mandul_jantan
+def: "Pemunculan malai pada galur mandul jantan" []
+
+[Term]
+id: KMSD:PADI-pemunculan_kepala_putik_dari_galur_mandul_jantan
+name: pemunculan_kepala_putik_dari_galur_mandul_jantan
+def: "Pemunculan kepala putik dari galur mandul jantan" []
+
+[Term]
+id: KMSD:PADI-pembukaan_gluma_galur_mandul_jantan
+name: pembukaan_gluma_galur_mandul_jantan
+def: "Pembukaan gluma dari galur mandul jantan (sudut pembukaan gluma)" []
+
+[Term]
+id: KMSD:PADI-pemulihan_kesuburan_hibrida_f1
+name: pemulihan_kesuburan_hibrida_f1
+def: "Pemulihan kesuburan hibrida F1" []
