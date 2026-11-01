@@ -1,0 +1,19 @@
+format-version: 1.2
+ontology: kmskar
+default-namespace: kms_karakterisasi
+remark: kms_karakterisasi terms generated from Spesifikasi_Model_Data_KMS_SDG v1-1 (sheet Field)
+
+[Term]
+id: KMSKAR:tahun
+name: tahun
+def: "Tahun karakterisasi. Nilai: tahun 4 digit. Validasi: 1900..tahun berjalan" []
+
+[Term]
+id: KMSKAR:musim
+name: musim
+def: "Musim karakterisasi. Nilai: Musim hujan | Musim kemarau I | Musim kemarau II | tidak diketahui (teks; field properti Chado tidak memiliki nilai terbatas)." []
+
+[Term]
+id: KMSKAR:lokasi_pengamatan
+name: lokasi_pengamatan
+def: "Lokasi pengamatan. Nilai: nama kebun percobaan/lokasi; maks. 255." []

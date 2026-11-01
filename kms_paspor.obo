@@ -1,0 +1,109 @@
+format-version: 1.2
+ontology: kmspas
+default-namespace: kms_paspor
+remark: kms_paspor terms generated from Spesifikasi_Model_Data_KMS_SDG v1-1 (sheet Field)
+
+[Term]
+id: KMSPAS:no_asal
+name: no_asal
+def: "Nomor asal. Nilai: maks. 255." []
+
+[Term]
+id: KMSPAS:instcode
+name: instcode
+def: "Kode institusi (INSTCODE). Nilai: kode FAO WIEWS, mis. IDN..." []
+
+[Term]
+id: KMSPAS:tanggal_akuisisi
+name: tanggal_akuisisi
+def: "Tanggal akuisisi (ACQDATE). Nilai: YYYYMMDD; bagian yang tidak diketahui diisi tanda hubung (format MCPD). Validasi: Pola ^\\d{4}(\\d{2}|--)(\\d{2}|--)$ — ditegakkan constraint kode perekat (kandidat) pada formulir dan Feeds." []
+
+[Term]
+id: KMSPAS:kecamatan_asal
+name: kecamatan_asal
+def: "Kecamatan asal (teks sumber). Nilai: maks. 255." []
+
+[Term]
+id: KMSPAS:kabupaten_asal
+name: kabupaten_asal
+def: "Kabupaten/Kota asal (teks sumber). Nilai: maks. 255." []
+
+[Term]
+id: KMSPAS:provinsi_asal
+name: provinsi_asal
+def: "Provinsi asal (teks sumber). Nilai: maks. 255." []
+
+[Term]
+id: KMSPAS:negara_asal
+name: negara_asal
+def: "Negara asal. Nilai: kode ISO 3166-1 alpha-3; bawaan IDN. Validasi: Tiga huruf kapital; teks bebas pada templat (\"Indonesia\") dikonversi saat impor" []
+
+[Term]
+id: KMSPAS:ketinggian_tempat
+name: ketinggian_tempat
+def: "Ketinggian tempat. Nilai: meter di atas permukaan laut. Validasi: -100..6000" []
+
+[Term]
+id: KMSPAS:topografi
+name: topografi
+def: "Topografi. Nilai: teks (daftar nilai belum ditetapkan)." []
+
+[Term]
+id: KMSPAS:karakteristik_tanah
+name: karakteristik_tanah
+def: "Karakteristik tanah. Nilai: teks." []
+
+[Term]
+id: KMSPAS:donor_lembaga
+name: donor_lembaga
+def: "Donor (lembaga). Nilai: nama lembaga donor; maks. 255." []
+
+[Term]
+id: KMSPAS:tanggal_koleksi
+name: tanggal_koleksi
+def: "Tanggal koleksi. Nilai: YYYYMMDD; bagian yang tidak diketahui diisi tanda hubung (format MCPD). Validasi: Pola ^\\d{4}(\\d{2}|--)(\\d{2}|--)$; serial tanggal Excel dikonversi saat impor — ditegakkan constraint kode perekat (kandidat) pada formulir dan Feeds." []
+
+[Term]
+id: KMSPAS:kolektor_lembaga
+name: kolektor_lembaga
+def: "Kolektor (lembaga). Nilai: nama lembaga kolektor; maks. 255." []
+
+[Term]
+id: KMSPAS:status_aksesi
+name: status_aksesi
+def: "Status aksesi. Nilai: teks (definisi belum ditetapkan)." []
+
+[Term]
+id: KMSPAS:sumber_aksesi
+name: sumber_aksesi
+def: "Sumber aksesi. Nilai: teks (definisi belum ditetapkan)." []
+
+[Term]
+id: KMSPAS:pola_tanam
+name: pola_tanam
+def: "Pola tanam. Nilai: teks." []
+
+[Term]
+id: KMSPAS:bentuk_material
+name: bentuk_material
+def: "Bentuk material SDG. Nilai: teks, mis. benih, tanaman lapang, kultur in vitro." []
+
+[Term]
+id: KMSPAS:karakteristik_unik
+name: karakteristik_unik
+def: "Karakteristik penting/unik. Nilai: teks." []
+
+[Term]
+id: KMSPAS:pemanfaatan
+name: pemanfaatan
+def: "Pemanfaatan. Nilai: teks." []
+
+[Term]
+id: KMSPAS:pengetahuan_tradisional
+name: pengetahuan_tradisional
+def: "Pengetahuan tradisional (teks paspor). Nilai: teks." []
+
+[Term]
+id: KMSPAS:komunitas_pt
+name: komunitas_pt
+def: "Komunitas pemilik PT. Nilai: nama komunitas; kosong = belum teridentifikasi." []
