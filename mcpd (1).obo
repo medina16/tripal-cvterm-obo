@@ -1,0 +1,209 @@
+format-version: 1.2
+ontology: mcpd
+default-namespace: mcpd
+remark: FAO/Bioversity Multi-Crop Passport Descriptors V.2.1 (December 2015), codes as accessions
+
+[Term]
+id: MCPD:PUID
+name: puid
+def: "Persistent unique identifier of the accession; DOI form recommended. If none exists, INSTCODE:ACCENUMB:GENUS. New in MCPD V.2.1." []
+
+[Term]
+id: MCPD:INSTCODE
+name: instcode
+def: "FAO WIEWS code of the institute holding the accession: 3-letter ISO 3166 country code plus number, e.g. IDN179." []
+
+[Term]
+id: MCPD:ACCENUMB
+name: accenumb
+def: "Accession number: unique identifier of the accession within the genebank." []
+
+[Term]
+id: MCPD:COLLNUMB
+name: collnumb
+def: "Collecting number: the collector's original identifier for the sample." []
+
+[Term]
+id: MCPD:COLLCODE
+name: collcode
+def: "FAO WIEWS code of the collecting institute. Several values separated by semicolon without space." []
+
+[Term]
+id: MCPD:COLLNAME
+name: collname
+def: "Name of the collecting institute; used only if COLLCODE cannot be filled. Several values separated by semicolon." []
+
+[Term]
+id: MCPD:COLLINSTADDRESS
+name: collinstaddress
+def: "Address of the collecting institute; used only if COLLCODE cannot be filled." []
+
+[Term]
+id: MCPD:COLLMISSID
+name: collmissid
+def: "Identifier of the collecting mission." []
+
+[Term]
+id: MCPD:GENUS
+name: genus
+def: "Genus name, initial uppercase letter." []
+
+[Term]
+id: MCPD:SPECIES
+name: species
+def: "Specific epithet in lowercase; only the abbreviation sp. is allowed." []
+
+[Term]
+id: MCPD:SPAUTHOR
+name: spauthor
+def: "Authority for the species name." []
+
+[Term]
+id: MCPD:SUBTAXA
+name: subtaxa
+def: "Subtaxon with allowed abbreviations: subsp., convar., var., f., Group." []
+
+[Term]
+id: MCPD:SUBTAUTHOR
+name: subtauthor
+def: "Authority at the most detailed taxonomic level." []
+
+[Term]
+id: MCPD:CROPNAME
+name: cropname
+def: "Common crop name." []
+
+[Term]
+id: MCPD:ACCENAME
+name: accename
+def: "Registered or formal name(s) of the accession, first letter uppercase; several separated by semicolon." []
+
+[Term]
+id: MCPD:ACQDATE
+name: acqdate
+def: "Date the accession entered the collection. MCPD format YYYYMMDD with hyphens or 00 for unknown parts (confirm the API's actual format)." []
+
+[Term]
+id: MCPD:ORIGCTY
+name: origcty
+def: "Country where the sample was collected, bred or selected: 3-letter ISO 3166-1 code." []
+
+[Term]
+id: MCPD:COLLSITE
+name: collsite
+def: "Location of the collecting site below country level." []
+
+[Term]
+id: MCPD:DECLATITUDE
+name: declatitude
+def: "Latitude in signed decimal degrees (positive North). Exclusive with LATITUDE." []
+
+[Term]
+id: MCPD:LATITUDE
+name: latitude
+def: "Latitude as DDMMSS followed by N or S. Exclusive with DECLATITUDE." []
+
+[Term]
+id: MCPD:DECLONGITUDE
+name: declongitude
+def: "Longitude in signed decimal degrees (positive East). Exclusive with LONGITUDE." []
+
+[Term]
+id: MCPD:LONGITUDE
+name: longitude
+def: "Longitude as DDDMMSS followed by E or W. Exclusive with DECLONGITUDE." []
+
+[Term]
+id: MCPD:COORDUNCERT
+name: coorduncert
+def: "Coordinate uncertainty in metres; empty if unknown." []
+
+[Term]
+id: MCPD:COORDDATUM
+name: coorddatum
+def: "Geodetic datum of the coordinates, e.g. WGS84." []
+
+[Term]
+id: MCPD:GEOREFMETH
+name: georefmeth
+def: "Georeferencing method: GPS, map, gazetteer or software-estimated." []
+
+[Term]
+id: MCPD:ELEVATION
+name: elevation
+def: "Elevation of the collecting site in metres above sea level; negative values allowed." []
+
+[Term]
+id: MCPD:COLLDATE
+name: colldate
+def: "Collecting date of the sample. MCPD format YYYYMMDD with hyphens or 00 for unknown parts (confirm the API's actual format)." []
+
+[Term]
+id: MCPD:BREDCODE
+name: bredcode
+def: "FAO WIEWS code of the breeding institute; several separated by semicolon." []
+
+[Term]
+id: MCPD:BREDNAME
+name: bredname
+def: "Name of the breeding institute; used only if BREDCODE cannot be filled." []
+
+[Term]
+id: MCPD:SAMPSTAT
+name: sampstat
+def: "Biological status of the accession, coded: 100 wild, 200 weedy, 300 traditional cultivar/landrace, 400 breeding/research material, 500 advanced cultivar, 600 GMO, 999 other (and their sub-codes)." []
+
+[Term]
+id: MCPD:ANCEST
+name: ancest
+def: "Pedigree or other description of ancestry." []
+
+[Term]
+id: MCPD:COLLSRC
+name: collsrc
+def: "Collecting or acquisition source, coded: 10 wild habitat, 20 farm or cultivated habitat, 30 market or shop, 40 institute/genebank, 50 seed company, 60 weedy/disturbed habitat, 99 other (and sub-codes)." []
+
+[Term]
+id: MCPD:DONORCODE
+name: donorcode
+def: "FAO WIEWS code of the donor institute." []
+
+[Term]
+id: MCPD:DONORNAME
+name: donorname
+def: "Name of the donor institute; used only if DONORCODE cannot be filled." []
+
+[Term]
+id: MCPD:DONORNUMB
+name: donornumb
+def: "Accession identifier assigned by the donor." []
+
+[Term]
+id: MCPD:OTHERNUMB
+name: othernumb
+def: "Other identifiers of the accession as INSTCODE:identifier pairs separated by semicolon." []
+
+[Term]
+id: MCPD:DUPLSITE
+name: duplsite
+def: "FAO WIEWS code(s) of the institute(s) holding safety duplicates; separated by semicolon." []
+
+[Term]
+id: MCPD:DUPLINSTNAME
+name: duplinstname
+def: "Name(s) of the institute(s) holding safety duplicates." []
+
+[Term]
+id: MCPD:STORAGE
+name: storage
+def: "Type of germplasm storage, coded: 10 seed (11 short, 12 medium, 13 long term), 20 field, 30 in vitro, 40 cryopreserved, 50 DNA, 99 other; several separated by semicolon." []
+
+[Term]
+id: MCPD:MLSSTAT
+name: mlsstat
+def: "Status in the Multilateral System: 0 no, 1 yes, 99 other; empty if unknown." []
+
+[Term]
+id: MCPD:REMARKS
+name: remarks
+def: "Remarks, each prefixed with the field name and a colon (e.g. COLLSRC:riverside); separated by semicolon." []
